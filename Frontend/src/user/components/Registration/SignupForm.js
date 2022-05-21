@@ -84,7 +84,9 @@ const FormSignup = (props) => {
     <React.Fragment>
       <ErrorModal error={error} onClose={clearError} />
       <form className="form-regis signup" onSubmit={signupSubmitHandler}>
-        {isLoading && <LoadingSpinner asOverlay />}
+        {isLoading && (
+          <LoadingSpinner asOverlay style={{ borderRadius: "10px" }} />
+        )}
         <div className="heading">
           <h3 className="heading__title">Sign up for your account</h3>
         </div>
