@@ -1,0 +1,8 @@
+.grid {
+  display: grid;
+  max-width: 114rem;
+}
+
+.three-columns {
+  grid-template-columns: auto;
+}

@@ -1,0 +1,24 @@
+.card__side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 52rem;
+  font-size: 1.6rem;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+@media (max-width: 768px) {
+  .card__side {
+    box-shadow: none;
+  }
+}

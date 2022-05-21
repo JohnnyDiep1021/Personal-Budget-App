@@ -1,0 +1,17 @@
+.balance-box {
+  font-size: 2.4rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(248, 177, 25, 0.8),
+    rgba(248, 166, 15, 0.8)
+  );
+  margin: 0 1.5rem;
+  padding: 0.5rem 2rem;
+}
+
+.balance-value {
+  animation: popup 1s;
+}

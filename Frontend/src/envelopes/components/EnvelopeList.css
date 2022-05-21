@@ -1,0 +1,50 @@
+/* .env-list {
+  animation: appear 1s;
+} */
+.env-list > li {
+  list-style: none;
+  animation: slide-down 400ms ease-out forwards;
+}
+
+.env-list .warning {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.env-list .btn-container {
+  display: flex;
+  width: 38rem;
+  height: 52rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.env-list .btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.2rem;
+  height: 6.2rem;
+  padding: 0;
+  color: rgb(97, 93, 93);
+}
+
+.env-list .btn-add:hover {
+  box-shadow: 0 0 1rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.env-list .btn-add:hover::after {
+  transform: scaleX(1.6) scaleY(1.8);
+}
+
+.env-list .btn-add::after {
+  background-color: rgb(221, 219, 214);
+}
+
+@media (min-width: 768px) {
+  .env-list .warning {
+    font-size: 2.6rem;
+  }
+}

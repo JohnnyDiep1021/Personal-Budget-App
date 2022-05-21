@@ -1,0 +1,28 @@
+.icon-facebook,
+.icon-github,
+.icon-linkedin,
+.icon-whatsapp,
+.icon-twitter,
+.icon-instagram {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.icon-facebook {
+  fill: #4267b2;
+}
+.icon-github {
+  fill: #171515;
+}
+.icon-linkedin {
+  fill: #0072b1;
+}
+.icon-whatsapp {
+  fill: #25d366;
+}
+.icon-twitter {
+  fill: #00acee;
+}
+.icon-instagram {
+  fill: #8a3ab9;
+}

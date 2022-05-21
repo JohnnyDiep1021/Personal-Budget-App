@@ -1,0 +1,144 @@
+.update-form {
+  padding: 20rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  animation: slide-down 400ms ease-out forwards;
+}
+
+.update-form .btn-close {
+  top: 1.5%;
+  left: 98%;
+}
+
+.card__update {
+  /* padding: 2rem 4rem; */
+  background-image: linear-gradient(
+    rgba(255, 167, 4, 0.9),
+    rgba(241, 197, 2, 0.8)
+  );
+  border: 1.5px solid black;
+  box-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 1.2rem;
+  color: #000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card__update label {
+  display: block;
+  justify-items: flex-start;
+}
+
+.card__update input {
+  width: 100%;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 0px;
+  border-bottom: 1px solid #000;
+}
+
+.card__update input:focus {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 1px solid #000;
+}
+
+.card__update input:-webkit-autofill,
+.card__update input:-webkit-autofill:hover,
+.card__update input:-webkit-autofill:focus,
+.card__update input:-webkit-autofill:active {
+  border: transparent;
+  border-bottom: 1px solid #000;
+  background-clip: text;
+}
+
+.card__update .header {
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+}
+
+.card__update .header .input input {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card__update .header .input:first-child input {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.card__update .header .input:last-child {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.card__update .header .input:last-child input {
+  text-align: center;
+  font-size: 6rem;
+  width: 50%;
+  height: auto;
+}
+
+.card__update .header label {
+  display: inline-block;
+}
+
+.card__update .header input:focus {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: none;
+}
+
+.card__update .header input:-webkit-autofill,
+.card__update .header input:-webkit-autofill:hover,
+.card__update .header input:-webkit-autofill:focus,
+.card__update .header input:-webkit-autofill:active {
+  border: transparent;
+  border-bottom: none;
+  background-clip: text;
+}
+
+.card__update .note {
+  width: 100%;
+  height: 100%;
+  padding: 0 4rem;
+  margin-bottom: 1rem;
+}
+
+.card__update .note .heading {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.card__update .note input {
+  font-size: 1.6rem;
+  border-bottom: 1px solid rgba(87, 85, 85, 0.5);
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.card__update .btn-save {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 368px) {
+  .card__update {
+    transform: scale(0.85);
+  }
+  .card__update .header {
+    padding: 2rem 0;
+  }
+  .card__update .note {
+    padding: 0 4rem;
+  }
+}

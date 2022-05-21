@@ -1,0 +1,62 @@
+.card__side--back {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 187, 0, 0.85),
+    rgba(255, 119, 48, 0.85)
+  );
+  transform: rotateY(180deg);
+  position: relative;
+  text-align: center;
+}
+
+.card:hover .card__side--back {
+  /* transform: rotateY(0deg); */
+}
+
+.card__cta {
+  width: 100%;
+  text-align: center;
+  padding: 3rem 3rem;
+}
+
+.card__price-box {
+  text-align: center;
+  color: #fff;
+}
+
+.card__price-text {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+.card__price-value {
+  font-size: 6rem;
+  font-weight: 100;
+  transition: all 0.2s;
+}
+
+.card__details {
+  text-align: left;
+  padding: 0 3rem;
+  margin-bottom: 2rem;
+}
+
+.card__details-header {
+  font-size: 1.8rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.card__details ul {
+  padding-left: 0.8rem;
+  list-style: "-";
+}
+.card__details li {
+  padding-left: 0.6rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.btn {
+  margin-top: 3rem;
+}

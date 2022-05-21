@@ -1,0 +1,8 @@
+{
+  "env": {
+    "DB_USER": "taskapp",
+    "DB_PASSWORD": "Dbdev1234",
+    "DB_NAME": "personal-budget-api",
+    "JWT_KEY": "zVJH40hMwPDxj9r4"
+  }
+}

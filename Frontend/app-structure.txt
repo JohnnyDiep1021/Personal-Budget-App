@@ -1,0 +1,7 @@
+/autenticate => Signup + Login form => only un-authenticated
+/ => navigation + List all envelopes + balance => authenticated
+/:uid => update User form => authenticated
+/envelopes/new => new Envelope form => authenticated 
+/:envelopeId => update Envelope form => authenticated
+/transfer => transfer form => authenticated
+/deposit => deposit form => authenticated

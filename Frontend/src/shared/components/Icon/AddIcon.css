@@ -1,0 +1,25 @@
+/* Add the following CSS block to your own
+stylesheet. */
+/* .lnr {
+  display: inline-block;
+  width: 6rem;
+  height: 6rem;
+  padding: 0;
+  vertical-align: -0.05rem;
+  margin: 0 auto;
+  fill: rgb(119, 115, 115);
+} */
+.fi {
+}
+
+.fi-br-plus {
+  font-size: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-add {
+  width: 4.2rem;
+  height: 4.2rem;
+}

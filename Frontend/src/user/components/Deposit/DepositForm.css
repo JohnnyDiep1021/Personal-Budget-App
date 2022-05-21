@@ -1,0 +1,64 @@
+.modal-deposit {
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 25vh;
+  left: calc(50% - 15rem);
+}
+
+.form-deposit {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(238, 165, 8),
+    rgba(248, 205, 15)
+  );
+  box-shadow: 0 2px 8px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 0.6rem;
+  padding: 2rem 4rem;
+  left: calc(50% - 15rem);
+  width: 30rem;
+  height: 100%;
+}
+
+.form-deposit .input {
+  /* display: flex;*/
+  display: grid;
+  grid-template-columns: 0.5fr 5fr;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-deposit .deposit-heading {
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.form-deposit .error-message {
+  grid-column: 2 / 3;
+  justify-self: flex-start;
+}
+
+.form-deposit input {
+  margin: 0;
+  width: 100%;
+}
+
+.form-deposit .fi-br-cross {
+  font-size: 1rem;
+}
+
+.form-deposit .btn-close {
+  top: 2.2%;
+  left: 99%;
+}
+
+@media (max-width: 850px) {
+  .modal-deposit {
+    top: 30vh;
+  }
+}

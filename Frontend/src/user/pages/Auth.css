@@ -1,0 +1,30 @@
+.section-welcome {
+  /* background-color: #eee; */
+  /* padding: 25rem 0 15rem 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(248, 177, 25, 0.7),
+      rgba(248, 166, 15, 0.7)
+    ),
+    url("../../../img/welcome-3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media (max-height: 760px) {
+  .section-welcome {
+    overflow: scroll;
+    padding-top: 20rem;
+    padding-bottom: 5rem;
+  }
+}
+@media (max-height: 650px) {
+  .section-welcome {
+    overflow: scroll;
+    padding-top: 35rem;
+  }
+}
