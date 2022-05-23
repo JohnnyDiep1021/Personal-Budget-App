@@ -49,7 +49,8 @@ const UserProfile = (props) => {
           <img src="" alt="user"></img>
         </div> */}
             <Avatar
-              image={`${process.env.REACT_APP_ASSET_URL}/${userProfile.image}`}
+              // image={`${process.env.REACT_APP_ASSET_URL}/${userProfile.image}`}
+              image={`${userProfile.image}`}
               className=""
             />
             <Button

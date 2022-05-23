@@ -73,7 +73,10 @@ mongoose
       console.log(
         process.env.DB_USER,
         process.env.DB_PASSWORD,
-        process.env.DB_NAME
+        process.env.DB_NAME,
+        process.env.AWS_ACCESS_KEY_ID,
+        process.env.AWS_SECRET_ACCESS_KEY,
+        process.env.S3_BUCKET
       );
       console.log(`Server is up on PORT ${PORT}`);
     });

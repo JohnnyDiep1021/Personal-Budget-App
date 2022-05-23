@@ -3,6 +3,9 @@
     "DB_USER": "taskapp",
     "DB_PASSWORD": "Dbdev1234",
     "DB_NAME": "personal-budget-api",
-    "JWT_KEY": "zVJH40hMwPDxj9r4"
+    "JWT_KEY": "zVJH40hMwPDxj9r4",
+    "AWS_ACCESS_KEY_ID": "AKIATYZBQHQOEJCCKLP7",
+    "AWS_SECRET_ACCESS_KEY": "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",
+    "S3_BUCKET": "johnny-personal-budget"
   }
 }

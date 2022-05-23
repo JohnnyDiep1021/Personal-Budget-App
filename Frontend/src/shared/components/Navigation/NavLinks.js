@@ -60,12 +60,12 @@ const NavLinks = (props) => {
           </Button>
         </li>
       )}
-      {envCtx.isLoggedIn && (
+      {envCtx.isLoggedIn && !envCtx.isUpdateActive && (
         <li>
           <Button
             onClick={() => {
               envCtx.logout(envCtx.token);
-              // props.onClick && props.onClick();
+              props.onClick && props.onClick();
             }}
           >
             Logout

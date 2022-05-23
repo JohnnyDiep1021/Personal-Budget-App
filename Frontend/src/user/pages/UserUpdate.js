@@ -154,7 +154,8 @@ const UserUpdateForm = (props) => {
               id="image"
               center
               onInput={inputHandler}
-              src={`${process.env.REACT_APP_ASSET_URL}/${userProfile.image}`}
+              // src={`${process.env.REACT_APP_ASSET_URL}/${userProfile.image}`}
+              src={`${userProfile.image}`}
               errorText="Please provide an image"
             />
           </div>

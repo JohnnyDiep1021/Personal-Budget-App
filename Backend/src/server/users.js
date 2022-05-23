@@ -1,4 +1,6 @@
 const fs = require("fs");
+const aws = require("aws-sdk");
+const { generateUploadUrl } = require("../middleware/aws_s3");
 
 const usersRouter = require("express").Router();
 const { check, validationResult } = require("express-validator");
@@ -84,6 +86,20 @@ usersRouter.post("/logoutAll", auth, async (req, res, next) => {
     res.json({ message: "Logging out all devices sucessfully!" });
   } catch (error) {
     next(error);
+  }
+});
+
+// GET temp url for image uploading
+usersRouter.get("/sign-s3", auth, async (req, res, next) => {
+  try {
+    console.log(req.query);
+
+    // get url from AWS
+    const url = await generateUploadUrl(req.query["file-name"]);
+    res.json({ url });
+  } catch (err) {
+    console.log(err);
+    next(err);
   }
 });
 
