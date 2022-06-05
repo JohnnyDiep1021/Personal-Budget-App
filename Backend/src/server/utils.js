@@ -2,7 +2,6 @@ const Envelope = require("../db/model/envelope");
 const User = require("../db/model/user");
 const lodash = require("lodash");
 const mongoose = require("mongoose");
-const req = require("express/lib/request");
 
 const findDatabaseByName = function (name) {
   switch (name) {
