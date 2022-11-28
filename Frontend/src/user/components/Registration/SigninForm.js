@@ -47,7 +47,7 @@ const FormSignin = (props) => {
           "Content-Type": "application/json",
         }
       );
-      console.log(responseData);
+      // console.log(responseData);
       envCtx.addUser(responseData.user);
       envCtx.login(responseData.token);
     } catch (error) {}
