@@ -14,51 +14,47 @@ Utilizing and simulating the e-saving functionalities of the actual banking app,
   + View all current created envelopes in the home page.
   + Update current envelope's data ( title, amount of money, and detailed notes).
   + Delete current envelopes permanently.
-3. Perform some CRUD operations on personal account information:
+3. Perform CRUD operations on personal account information:
   + Create a new user account.
   + View personal information (username. email, expertise, name).
   + Self-customize/ edit personal information such as uploading profile image, or modifying personal data. 
 4. Transfer money between different envelopes.
 5. Deposit virtual money into the envelopes.
-6. . Auto account login/ logout (expired in 1 hour)
+6. Auto account login/ logout (expired in 1 hour)
 
 ## How to use?
-Only administrators are allowed to access the **Dashboard app**:
-  1. Using **default account** with username **"userTest"** - password **"Test@123"**
-
-After signing in successfully, explore all visual graphs, cards, and boards for more statiscal information about users and movies.
+1. Register **new accounnt** with user-defined **email/username** and **password**
+2. After signing in successfully, spend time exploring all features.
   
 ## Technologies
 1) ### Frontend:
-- **Dashboard App** is a single-page application (SPA), constructed from ReactJS. Using:
+- **E-saving App** is a single-page application (SPA), constructed with ReactJs. Using:
   + **Custom hooks** manages form data input, sending requests, and authentication.
   + **react-router-dom** is used to simulate multi-page applications.
-  + **reduxjs/toolkit**, **react-redux** creates stores to manage data across the application.
-  + **sass** is used for styles and decorations.
-  + **mui/material** for icons and tooltips.
+  + **css** is used for styles and decorations.
   + **firebase** for file upload.
-  + **recharts** visualizes a chart for the overall statistical data of users.
-  + **@mui/x-data-grid** is used to create tabular data grid managing user and movie's data.
-- **The user interface** is simplistic, modern and designed based on the framework and structure of an admin/ dashboard app.
+- **The user interface** is simplistic, and modern, but completely intriguing with the real-form design of envelopes. This allows users to experience the actual process of opening the envelopes and then putting money into them. 
+- Different slide-in modals display personal account information, transfer and deposit operations.
 
 2) ### Backend:
 - Featured by RESTful APIs and implemented by MongoDB, ExpressJs, and NodeJs. Using:
-  + **mongodb**, **mongoose** for user data storage.
+  + **mongodb**, **mongoose** for data storage.
   + **cors** for setting up cross-site resource sharing permissions.
   + **express** for building web framework, **express-validator** for handling and validating input data sent from client-side.
+  + **aws-sdk** for image upload.
   + **body-parser** for parsing request data.
-  + **helmet** for setting up header security.
   + **jsonwebtoken**, **bcrypt** for creating authToken and hashing user's password.
   + **validator** for validating input data into mongoose schema.
 
 ## What needs to be improved and enhanced?
-- Although **Dashboard App** meets all basic needs for data observation and gathering, there are still more features that must be incorporated for more advanced analytical tasks:
-  +  Speed up application loading process for future data analysis.
-  +  Integrate machine learning, algorithms, and data science techniques.
-  +  A more secure way to store user data (token, userId,...) used for auto-login/ logout instead of storing it in easily-mutable local storage.
-  +  More configurations, settings, and analytic boards for handling and processing incoming data.
+Although **E-saving App** is usable, accessible, and successfully features all basic functionalities for budget management, there are still more features that can be incorporated for more advanced tasks:
+  + Setting up reminders with schedule for each different envelope.
+  + Authentic payment.
+  + Sort envelopes by created date, time, or title. 
+  + A more secure way to store user data (token, userId,...) used for auto-login/ logout instead of storing it in easily-mutable local storage.
+  +  More configurations, and settings for user account.
 
 ## Closing notes
-For more realistic experience and vivid imagination, please spend time exploring and playing around with the [Dashboard/ Netflix Dashboard App](https://netflix-dashboard-app.web.app/login). Enjoy :blush:! 
+For more realistic experience and vivid imagination, please spend time exploring and playing around with the [Personal Budget/ E-Saving App](https://personal-budget-f770f.web.app/auth). Enjoy :blush:! 
 
 *I welcome all user's feedbacks and reviews. Your contributions can help me to grow better. Thank you :handshake:!*
