@@ -35,6 +35,12 @@ app.use(cors());
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
+const helmet = require("helmet");
+app.use(helmet());
+
+const compression = require("compression");
+app.use(compression());
+
 // middleware to handle image url
 // express.static() => just return a file from an absolute path
 app.use(
