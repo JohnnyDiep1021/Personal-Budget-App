@@ -1,11 +1,11 @@
 <div align="center">
   <h1> <img src="https://raw.githubusercontent.com/JohnnyDiep1021/Personal-Budget-App/main/Frontend/img/eSaving-logo48.png" alt="Personal Budget/ E=saving logo"/>E-saving App</h1>
-  <strong>An app simulates the actual dashboard/ admin app, used to monitor, manage and accummulate data statistics from Netflix Clone app </strong><br>
+  <strong>An app simulates the e-saving features of the banking app, using the envelope technique to manage a personal budget</strong><br>
 </div>
 <br>
 
 ## Why build this project?
-Grasping the concept of the actual dashboard app, [Dashboard/ Netflix Dashboard App](https://netflix-dashboard-app.web.app/login) was built with a modern and simplistic, UI for more convenient data observation and analysis and some fundamental operations of an admin app. It was incorporated all the underlying traits of a full-stack MERN application and only used as a personal project. This app is completely optimized for computers, and responsive features for mobile devices are going to be integrated in the future. This app will visualize the overall analytic view for the developers.
+Utilizing and simulating the e-saving functionalities of the actual banking app, [Personal Budget/ E-Saving App](https://personal-budget-f770f.web.app/auth) helps to facilitate budget allocation and saving effortlessly. The app was built with a modern, and simplistic UI and easy-to-use features. It was incorporated all the underlying traits of a responsive full-stack MERN application and only used as a personal project. This app is completely optimized for computers, and responsive features for mobile devices are going to be integrated in the future. This app will visualize the overall analytic view for the developers.
 
 ## Features
 1. Display an overall view including an analytic graph of yearly registered users and multiple statistical cards and boards.
