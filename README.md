@@ -10,14 +10,14 @@ Utilizing and simulating the e-saving functionalities of the actual banking app,
 ## Features
 1. Sign up for a new account or sign in for an existing one by using email/ username and password (with detailed input prompts).
 2. Perform CRUD operations on envelopes:
-  + Create new envelopes with title, budget, and detailed notes.
-  + View all current created envelopes in the home page.
-  + Update current envelope's data ( title, amount of money, and detailed notes).
-  + Delete current envelopes permanently.
+    + Create new envelopes with title, budget, and detailed notes.
+    + View all current created envelopes in the home page.
+    + Update current envelope's data ( title, amount of money, and detailed notes).
+    + Delete current envelopes permanently.
 3. Perform CRUD operations on personal account information:
-  + Create a new user account.
-  + View personal information (username. email, expertise, name).
-  + Self-customize/ edit personal information such as uploading profile image, or modifying personal data. 
+    + Create a new user account.
+    + View personal information (username. email, expertise, name).
+    + Self-customize/ edit personal information such as uploading profile image, or modifying personal data. 
 4. Transfer money between different envelopes.
 5. Deposit virtual money into the envelopes.
 6. Auto account login/ logout (expired in 1 hour)
