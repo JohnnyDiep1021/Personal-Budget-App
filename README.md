@@ -33,7 +33,7 @@ Utilizing and simulating the e-saving functionalities of the actual banking app,
   + **react-router-dom** is used to simulate multi-page applications.
   + **css** is used for styles and decorations.
   + **firebase** for file upload.
-- **The user interface** is simplistic, and modern, but completely intriguing with the real-form design of envelopes. This allows users to experience the actual process of opening the envelopes and then putting money into them. 
+- **The user interface** is simplistic, and modern, but completely intriguing with the unique envelope-form design. This allows users to experience the actual process of opening the envelopes and then putting money into them. 
 - Different slide-in modals display personal account information, transfer and deposit operations.
 
 2) ### Backend:
