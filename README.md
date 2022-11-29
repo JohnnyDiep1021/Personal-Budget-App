@@ -5,7 +5,7 @@
 <br>
 
 ## Why build this project?
-Utilizing and simulating the e-saving functionalities of the actual banking app, [Personal Budget/ E-Saving App](https://personal-budget-f770f.web.app/auth) helps to facilitate budget allocation and saving effortlessly. The app was built with a modern, and simplistic UI and easy-to-use features. It was incorporated all the underlying traits of a responsive full-stack MERN application and only used as a personal project. This app is completely responsive and compatible with all digital devices from mobiles to computers. **E-Saving app** will enable users to have a fresh and intriguing experience in allocating and managing personal budgets.
+Utilizing and simulating the e-saving functionalities of the actual banking app, [Personal Budget/ E-Saving App](https://personal-budget-f770f.web.app/auth) helps to facilitate budget allocation and saving effortlessly. The app was built with a modern, and simplistic UI and easy-to-use features. It incorporated all the underlying traits of a responsive full-stack MERN application and only used as a personal project. This app is completely responsive and compatible with all digital devices from mobiles to computers. **E-Saving app** will enable users to have a fresh and intriguing experience in allocating and managing personal budgets.
 
 ## Features
 1. Sign up for a new account or sign in for an existing one by using email/ username and password (with detailed input prompts).
