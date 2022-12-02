@@ -5,7 +5,7 @@
 <br>
 
 ## Why build this project?
-Utilizing and simulating the e-saving functionalities of the actual banking app, [Personal Budget/ E-Saving App](https://personal-budget-f770f.web.app/auth) helps to facilitate budget allocation and saving effortlessly. The app was built with a modern, and simplistic UI and easy-to-use features. It was incorporated all the underlying traits of a responsive full-stack MERN application and only used as a personal project. This app is completely responsive and compatible with all digital devices from mobiles to computers. **E-Saving app** will enable users to have a fresh and intriguing experience in allocating and managing personal budgets.
+Utilizing and simulating the e-saving functionalities of the actual banking app, [Personal Budget/ E-Saving App](https://personal-budget-f770f.web.app/auth) helps to facilitate budget allocation and saving effortlessly. The app was built with a modern, and simplistic UI and easy-to-use features. It incorporated all the underlying traits of a responsive full-stack MERN application and only used as a personal project. This app is completely responsive and compatible with all digital devices from mobiles to computers. **E-Saving app** will enable users to have a fresh and intriguing experience in allocating and managing personal budgets.
 
 ## Features
 1. Sign up for a new account or sign in for an existing one by using email/ username and password (with detailed input prompts).
@@ -27,22 +27,24 @@ Utilizing and simulating the e-saving functionalities of the actual banking app,
 2. After signing in successfully, spend time exploring all features.
   
 ## Technologies
-1) ### Frontend:
+1) ### Frontend
 - **E-saving App** is a single-page application (SPA), constructed with ReactJs. Using:
   + **Custom hooks** manages form data input, sending requests, and authentication.
   + **react-router-dom** is used to simulate multi-page applications.
   + **css** is used for styles and decorations.
   + **firebase** for file upload.
-- **The user interface** is simplistic, and modern, but completely intriguing with the real-form design of envelopes. This allows users to experience the actual process of opening the envelopes and then putting money into them. 
+- **The user interface** is simplistic, and modern, but completely intriguing with the unique envelope-form design. This allows users to experience the actual process of opening the envelopes and then putting money into them. 
 - Different slide-in modals display personal account information, transfer and deposit operations.
 
-2) ### Backend:
+2) ### Backend
 - Featured by RESTful APIs and implemented by MongoDB, ExpressJs, and NodeJs. Using:
   + **mongodb**, **mongoose** for data storage.
   + **cors** for setting up cross-site resource sharing permissions.
   + **express** for building web framework, **express-validator** for handling and validating input data sent from client-side.
   + **aws-sdk** for image upload.
   + **body-parser** for parsing request data.
+  + **helmet** for setting up header security.
+  + **compression** to compress size.
   + **jsonwebtoken**, **bcrypt** for creating authToken and hashing user's password.
   + **validator** for validating input data into mongoose schema.
 
